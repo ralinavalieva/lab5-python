@@ -1,7 +1,7 @@
  import numpy as np
 import matplotlib.pyplot as plt
 
-# Генерация случайных данных
+# Генерация 1000 случайных чисел
 data = np.random.normal(loc=0, scale=1, size=1000)
 
 # Построение гистограммы
