@@ -6,12 +6,12 @@ x = np.linspace(0, 10, 100)#100 точ от 0 до 10, равномерно ра
 fig, axs = plt.subplots(1, 3, figsize=(15, 4))
 
 # Область 1: линейный график y=x^2
-axs[0].plot(x, x**2)
+axs[0].plot(x, x**2)#axs = хр массива или 1 обьекта axs
 axs[0].set_title('y = x^2')
 axs[0].set_xlabel('x')
 axs[0].set_ylabel('y')
 
-# Область 2: точечный график случайных точек
+# Область 2: точечный график случайных точек=scatter
 np.random.seed(0) # для воспроизводимости
 x_scatter = np.random.rand(50)
 y_scatter = np.random.rand(50)
