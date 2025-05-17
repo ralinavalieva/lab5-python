@@ -1,7 +1,7 @@
  import numpy as np
 import matplotlib.pyplot as plt
 
-x = np.linspace(0, 10, 100)
+x = np.linspace(0, 10, 100)#100 точ от 0 до 10, равномерно распр.
 
 fig, axs = plt.subplots(1, 3, figsize=(15, 4))
 
